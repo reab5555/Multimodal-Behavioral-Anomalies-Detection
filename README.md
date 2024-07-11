@@ -101,6 +101,9 @@ Citations:
 <img src="appendix/sad_scores_plot.png" width="300" alt="alt text">
 <p/>
 
+### Results and Observations
+The anomaly detection results highlighted significant anomalies primarily during time points where the penalty of death was discussed during Wade Wilson's trial. Despite Wilson's cold and detached demeanor to human eyes, the LSTM autoencoder detected subtle emotional leaks through his facial expressions. These insights suggest that critical moments, such as mentions of the death penalty, had a marked impact on Wilson, which was reflected in the anomalous changes in his facial expressions.
+
 ### Dependencies
 - `torch`
 - `facenet-pytorch`
