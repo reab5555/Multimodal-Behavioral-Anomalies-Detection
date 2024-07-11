@@ -6,9 +6,9 @@ This repository contains an algorithm for detecting anomalies in facial expressi
 The tool extracts faces from video frames, detects unique facial features, and analyzes emotional facial expression to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
 
 ## Key Features
-- **Face Extraction**: Extracts faces from video frames at a defined FPS.
-- **Face Alignment**: Aligns and normalizes faces for consistent analysis.
-- **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1 model.
+- **Face Extraction**: Extracts faces from video frames.
+- **Face Alignment**: Aligns and normalizes faces.
+- **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1/VGG-Face model.
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions.
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
 
