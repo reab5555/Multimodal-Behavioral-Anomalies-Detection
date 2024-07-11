@@ -88,9 +88,6 @@ Sources:
 [2] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/   
 [3] https://www.youtube.com/watch?v=8j8psgKXmRg
 
-### LSTM Autoencoder Learning Curve
-<img src="appendix/lstm_training_loss.png" width="350" alt="alt text">
-
 ### Detected Anomalies (Facial Features)
 <p align="left">
 <img src="appendix/anomaly_scores_all_features_plot.png" width="250" alt="alt text">
