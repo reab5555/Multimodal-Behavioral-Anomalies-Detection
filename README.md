@@ -15,9 +15,6 @@ The tool extracts faces from video frames, detects unique facial features, and a
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
-## Micro-Expressions
-Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. 
-
 ## Key Features
 - **Face Extraction**: Extracts faces from video frames.
 - **Face Alignment**: Aligns and normalizes faces.
@@ -26,6 +23,9 @@ Paul Ekman’s work on facial expressions of emotion identified universal micro-
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
 
 <img src="appendix/diagram.svg" width="250" alt="alt text">
+
+## Micro-Expressions
+Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. 
 
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network. It is widely used for facial recognition and facial attributes extraction. 
