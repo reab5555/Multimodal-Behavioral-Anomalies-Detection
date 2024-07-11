@@ -28,13 +28,8 @@ The VGG-Face model is a deep convolutional neural network trained on the VGGFace
 
 ### Micro-Expressions and Paul Ekman’s Theory
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. Ekman also identified seven basic emotions that are universally expressed through facial expressions:
-- Anger
-- Disgust
-- Fear
-- Happiness
-- Sadness
-- Surprise
-- Neutral
+
+Anger, Disgust, Fear, Happiness, Sadness, Surprise, Neutral
 
 The algorithm in this repository detects these basic emotions, making it easier to understand underlying emotions and detect anomalies in facial expressions over time.
 
