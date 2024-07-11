@@ -38,7 +38,6 @@ The InceptionResnetV1 model is a deep convolutional neural network trained on th
 
 An LSTM (Long Short-Term Memory) Autoencoder is a neural network designed for sequential data. It consists of an encoder that compresses input sequences into a fixed-length representation and a decoder that reconstructs the sequence from this representation. 
 
-### How It Works in Our Case
 In our facial-expression anomaly detection:
 
 1. **Input Preparation**: Facial embeddings are extracted from video frames.
@@ -47,6 +46,22 @@ In our facial-expression anomaly detection:
 4. **Anomaly Detection**: High reconstruction errors highlight frames with unusual facial expressions, indicating potential anomalies.
 
 This approach effectively captures temporal dependencies and subtle changes in facial expressions, providing robust anomaly detection.
+
+In our facial-expression anomaly detection, we leverage the LSTM autoencoder in three different ways:
+
+1. **Using All Features**:
+   - We consider all facial embeddings and emotion scores as input features.
+   - The LSTM autoencoder is trained to detect anomalies based on the full set of features.
+
+2. **Using Reduced Components**:
+   - We use UMAP (Uniform Manifold Approximation and Projection) to reduce the dimensionality of the facial embeddings into N components.
+   - These reduced components are then used as input for the LSTM autoencoder to detect anomalies based on the compressed feature set.
+
+3. **Using Full-Dimensional Embeddings**:
+   - The raw facial embeddings, without any dimensionality reduction, are used directly.
+   - The LSTM autoencoder is trained on these high-dimensional embeddings to identify anomalies.
+
+Each method provides a different perspective on the data, enhancing our capability to detect subtle and varied anomalies in facial expressions.
 
 ## An Example from Wade Wilson Trial
 
