@@ -27,7 +27,16 @@ The tool extracts faces from video frames at the desired frames per second (FPS)
 The VGG-Face model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
 
 ### Micro-Expressions and Paul Ekman’s Theory
-Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. Detecting these fleeting expressions is crucial in understanding underlying emotions.
+Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. Ekman also identified seven basic emotions that are universally expressed through facial expressions:
+- Anger
+- Disgust
+- Fear
+- Happiness
+- Sadness
+- Surprise
+- Neutral
+
+The algorithm in this repository detects these basic emotions, making it easier to understand underlying emotions and detect anomalies in facial expressions over time.
 
 ## Dependencies
 - `torch`
