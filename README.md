@@ -42,7 +42,7 @@ The Facial Expression Recognition (FER) model used in our pipeline is a pre-trai
 - **Accuracy and Reliability**: The FER model is pre-trained on a large dataset of facial images labeled with emotional states, achieving high accuracy in identifying seven basic emotions: Anger, Disgust, Fear, Happiness, Sadness, Surprise, and Neutral.
 - **Robustness**: The model is capable of recognizing emotions in varying lighting conditions, facial orientations, and occlusions, making it highly reliable for practical applications.
 
-## LSTM Autoencoder: Introduction and Its Application
+## LSTM Autoencoder
 
 An LSTM (Long Short-Term Memory) Autoencoder is a neural network designed for sequential data. It consists of an encoder that compresses input sequences into a fixed-length representation and a decoder that reconstructs the sequence from this representation. 
 
