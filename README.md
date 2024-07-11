@@ -21,15 +21,30 @@ The tool extracts faces from video frames, detects unique facial features, and a
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
-## InceptionResnetV1 Model
-The InceptionResnetV1 model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
-
 ## Micro-Expressions and Paul Ekman’s Theory
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. Ekman also identified seven basic emotions that are universally expressed through facial expressions:
 
 Anger, Disgust, Fear, Happiness, Sadness, Surprise, Neutral
 
 The algorithm in this repository detects these basic emotions, making it easier to understand underlying emotions and detect anomalies in facial expressions over time.
+
+
+## InceptionResnetV1 Model
+The InceptionResnetV1 model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
+
+## LSTM Autoencoder: Introduction and Its Application
+
+An LSTM (Long Short-Term Memory) Autoencoder is a neural network designed for sequential data. It consists of an encoder that compresses input sequences into a fixed-length representation and a decoder that reconstructs the sequence from this representation. 
+
+### How It Works in Our Case
+In our facial-expression anomaly detection:
+
+1. **Input Preparation**: Facial embeddings are extracted from video frames.
+2. **Sequence Creation**: These embeddings form a chronological sequence.
+3. **Training**: The LSTM autoencoder learns typical patterns in these sequences.
+4. **Anomaly Detection**: High reconstruction errors highlight frames with unusual facial expressions, indicating potential anomalies.
+
+This approach effectively captures temporal dependencies and subtle changes in facial expressions, providing robust anomaly detection.
 
 ## An Example from Wade Wilson Trial
 
