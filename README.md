@@ -57,7 +57,7 @@ This approach effectively captures temporal dependencies and subtle changes in f
 In our facial-expression anomaly detection, we leverage the LSTM autoencoder in three different ways:
 
 1. **Using All Features**:
-   - We consider all facial embeddings and emotion scores as input features.
+   - We consider the components and emotion scores as input features.
    - The LSTM autoencoder is trained to detect anomalies based on the full set of features.
 
 2. **Using Reduced Components**:
