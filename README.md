@@ -1,7 +1,9 @@
 # Facial-Expression-Anomality-Detection
 
 ## Introduction
-This repository contains an algorithm for detecting anomalies in facial expressions over the timeline of a video using time series analysis. The tool extracts faces from video frames at the desired frames per second (FPS), detects facial features, and analyzes facial expressions to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
+This repository contains an algorithm for detecting anomalies in facial expressions over the timeline of a video using time series analysis. 
+
+The tool extracts faces from video frames at the desired frames per second (FPS), detects facial features, and analyzes facial expressions emotions to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
 
 ## Key Features
 - **Face Extraction**: Extracts faces from video frames at a defined FPS.
