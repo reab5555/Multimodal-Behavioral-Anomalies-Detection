@@ -65,7 +65,6 @@ Citations:
 - Organized faces by detected persons in the `organized_faces` folder.
 - Anomalies detection results as a CSV file in the project directory.
 
-## Code Summary
 ### Face Extraction and Alignment
 The algorithm extracts faces from the video, aligns, and normalizes them using MediaPipe and MTCNN.
 
