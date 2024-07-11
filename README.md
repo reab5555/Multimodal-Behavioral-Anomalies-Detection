@@ -126,6 +126,7 @@ The anomaly detection results highlighted significant anomalies primarily during
 - `pandas`
 
 ### Setup Parameters
+- `NUM_ANOMALIES`
 - `DESIRED_FPS`
 - `NUM_COMPONENTS`
 - `batch_size`
