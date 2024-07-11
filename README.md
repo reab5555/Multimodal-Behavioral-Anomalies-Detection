@@ -110,26 +110,14 @@ Sources:
 ### Results and Observations
 The anomaly detection results highlighted significant anomalies primarily during time points where the penalty of death was discussed during Wade Wilson's trial. Despite Wilson's cold and detached demeanor to human eyes, the LSTM autoencoder detected subtle emotional leaks through his facial expressions. These insights suggest that critical moments, such as mentions of the death penalty, had a marked impact on Wilson, which was reflected in the anomalous changes in his facial expressions.
 
-### Dependencies
-- `torch`
-- `facenet-pytorch`
-- `mediapipe`
-- `FER`
-- `sklearn`
-- `umap-learn`
-- `tqdm`
-- `opencv-python`
-- `scipy`
-- `pandas`
-
-### Setup Parameters
+## Setup Parameters
 - `NUM_ANOMALIES`
 - `DESIRED_FPS`
 - `NUM_COMPONENTS`
 - `batch_size`
 - `VIDEO_FILE_PATH`
 
-### Output
+## Output
 - Organized faces by detected persons in the `organized_faces` folder.
 - Anomalies detection results as a CSV file in the project directory.
 
@@ -145,19 +133,17 @@ Clusters faces to organize them by person.
 ### LSTM Autoencoder for Anomaly Detection
 Trains an LSTM autoencoder to identify anomalies in facial expressions over time. This model helps capture temporal dependencies and irregularities in the sequence of facial expressions and feature embeddings.
 
-### Grid Search and Anomaly Detection
-Optimizes parameters using grid search and identifies top anomalies based on the LSTM autoencoder's reconstruction error over time.
-
-## Example Output
-Here is an example of an anomaly detection output:
-```
-Time of top 10 anomalies:
-- 00:01:23
-- 00:02:45
-- 00:05:10
-
-Details saved to 'anomaly_detection_results.csv'
-```
-
+### Dependencies
+- `torch`
+- `facenet-pytorch`
+- `mediapipe`
+- `FER`
+- `sklearn`
+- `umap-learn`
+- `tqdm`
+- `opencv-python`
+- `scipy`
+- `pandas`
+- 
 ## Conclusion
 This tool offers robust solutions for detecting emotional anomalies in video-based facial expressions, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques and the power of LSTM autoencoders, it provides timely and crucial insights into human behavior.
