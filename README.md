@@ -6,15 +6,6 @@ This repository contains an algorithm for detecting anomalies in facial expressi
 
 The tool extracts faces from video frames, detects unique facial features, and analyzes emotional facial expression to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
 
-## Key Features
-- **Face Extraction**: Extracts faces from video frames.
-- **Face Alignment**: Aligns and normalizes faces.
-- **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1/VGG-Face model.
-- **Emotion Detection**: Identifies facial expressions and categorizes emotions.
-- **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
-
-<img src="appendix/diagram.png" width="250" alt="alt text">
-
 ## Practical Applications
 ### Forensic Analysis
 - Identify suspicious behavior in surveillance footage.
@@ -30,6 +21,15 @@ Paul Ekman’s work on facial expressions of emotion identified universal micro-
 Anger, Disgust, Fear, Happiness, Sadness, Surprise, Neutral
 
 The algorithm in this repository detects these basic emotions, making it easier to understand underlying emotions and detect anomalies in facial expressions over time.
+
+## Key Features
+- **Face Extraction**: Extracts faces from video frames.
+- **Face Alignment**: Aligns and normalizes faces.
+- **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1/VGG-Face model.
+- **Emotion Detection**: Identifies facial expressions and categorizes emotions.
+- **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
+
+<img src="appendix/diagram.png" width="250" alt="alt text">
 
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network. It is widely used for facial recognition and facial attributes extraction. 
