@@ -3,7 +3,7 @@
 ## Introduction
 This repository contains an algorithm for detecting anomalies in facial expressions over the timeline of a video using time series analysis, specifically utilizing an LSTM autoencoder.
 
-The tool extracts faces from video frames at the desired frames per second (FPS), detects facial features, and analyzes facial expression emotions to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
+The tool extracts faces from video frames, detects unique facial features, and analyzes emotional facial expression to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
 
 ## Key Features
 - **Face Extraction**: Extracts faces from video frames at a defined FPS.
