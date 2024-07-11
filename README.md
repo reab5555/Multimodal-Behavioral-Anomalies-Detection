@@ -1,16 +1,16 @@
 # Facial-Expression-Anomality-Detection
 
 ## Introduction
-This repository contains an algorithm for detecting anomalies in facial expressions over the timeline of a video using time series analysis. 
+This repository contains an algorithm for detecting anomalies in facial expressions over the timeline of a video using time series analysis, specifically utilizing an LSTM autoencoder.
 
-The tool extracts faces from video frames at the desired frames per second (FPS), detects facial features, and analyzes facial expressions emotions to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
+The tool extracts faces from video frames at the desired frames per second (FPS), detects facial features, and analyzes facial expression emotions to identify anomalies. This is particularly useful for forensic analysis and human intelligence (HUMINT) operations.
 
 ## Key Features
 - **Face Extraction**: Extracts faces from video frames at a defined FPS.
 - **Face Alignment**: Aligns and normalizes faces for consistent analysis.
-- **Feature Embeddings**: Extracts facial feature embeddings using the VGG-Face model.
+- **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1 model.
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions.
-- **Anomaly Detection**: Uses various techniques and models to detect anomalies in facial expressions.
+- **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
 
 ## Practical Applications
 ### Forensic Analysis
@@ -21,8 +21,8 @@ The tool extracts faces from video frames at the desired frames per second (FPS)
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
-## VGG-Face Model
-The VGG-Face model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
+## InceptionResnetV1 Model
+The InceptionResnetV1 model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
 
 ## Micro-Expressions and Paul Ekman’s Theory
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. Ekman also identified seven basic emotions that are universally expressed through facial expressions:
@@ -68,13 +68,16 @@ Citations:
 The algorithm extracts faces from the video, aligns, and normalizes them using MediaPipe and MTCNN.
 
 ### Feature Embedding Extraction
-Utilizes the VGG-Face model to extract facial features and FER to detect emotions.
+Utilizes the InceptionResnetV1 model to extract facial features and FER to detect emotions.
 
 ### Clustering and Outlier Detection
-Clusters faces to organize them by person and uses models like Isolation Forest, One-Class SVM, and Local Outlier Factor to detect anomalies.
+Clusters faces to organize them by person.
+
+### LSTM Autoencoder for Anomaly Detection
+Trains an LSTM autoencoder to identify anomalies in facial expressions over time. This model helps capture temporal dependencies and irregularities in the sequence of facial expressions and feature embeddings.
 
 ### Grid Search and Anomaly Detection
-Optimizes parameters using grid search and identifies top anomalies based on clustering and emotion data over time.
+Optimizes parameters using grid search and identifies top anomalies based on the LSTM autoencoder's reconstruction error over time.
 
 ## Example Output
 Here is an example of an anomaly detection output:
@@ -88,4 +91,4 @@ Details saved to 'anomaly_detection_results_person_1.csv'
 ```
 
 ## Conclusion
-This tool offers robust solutions for detecting emotional anomalies in video-based facial expressions, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques, it provides timely and crucial insights into human behavior.
+This tool offers robust solutions for detecting emotional anomalies in video-based facial expressions, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques and the power of LSTM autoencoders, it provides timely and crucial insights into human behavior.
