@@ -29,7 +29,7 @@ The algorithm in this repository detects these basic emotions, making it easier 
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions.
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
 
-<img src="appendix/diagram.svg" width="200" alt="alt text">
+<img src="appendix/diagram.svg" width="250" alt="alt text">
 
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network. It is widely used for facial recognition and facial attributes extraction. 
