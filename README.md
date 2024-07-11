@@ -50,7 +50,7 @@ This approach effectively captures temporal dependencies and subtle changes in f
 
 ## An Example from Wade Wilson Trial
 
-<img src="appendix/wade_wilson_2.jpg" width="350" alt="alt text">
+<img src="appendix/wade_wilson_2.jpg" width="300" alt="alt text">
 
 Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm, displaying a "smug, soulless" demeanor that drew significant attention. He showed a lack of emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024.
 
