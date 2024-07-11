@@ -60,24 +60,27 @@ Citations:
 [3] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/   
 [4] https://www.youtube.com/watch?v=8j8psgKXmRg
 
-## Frames Samples
+### Samples
 <p align="left">
-<img src="appendix/1.jpg" width="100" alt="alt text">
-<img src="appendix/2.jpg" width="100" alt="alt text">
-<img src="appendix/3.jpg" width="100" alt="alt text">
-<img src="appendix/4.jpg" width="100" alt="alt text">
-<img src="appendix/5.jpg" width="100" alt="alt text">
-<img src="appendix/6.jpg" width="100" alt="alt text">
+<img src="appendix/1.jpg" width="50" alt="alt text">
+<img src="appendix/2.jpg" width="50" alt="alt text">
+<img src="appendix/3.jpg" width="50" alt="alt text">
+<img src="appendix/4.jpg" width="50" alt="alt text">
+<img src="appendix/5.jpg" width="50" alt="alt text">
+<img src="appendix/6.jpg" width="50" alt="alt text">
 <p/>
 
+### LSTM Autoencoder Learning Curve
 <img src="appendix/lstm_training_loss.png" width="350" alt="alt text">
 
+### Detected Anomalies (Facial Features)
 <p align="left">
 <img src="appendix/anomaly_scores_all_features_plot.png" width="350" alt="alt text">
 <img src="appendix/anomaly_scores_components_plot.png" width="350" alt="alt text">
 <img src="appendix/anomaly_scores_embeddings_plot.png" width="350" alt="alt text">
 <p/>
-  
+
+### Detected Anomalies (Emotions)
 <p align="left">
 <img src="appendix/angry_scores_plot.png" width="350" alt="alt text">
 <img src="appendix/fear_scores_plot.png" width="350" alt="alt text">
