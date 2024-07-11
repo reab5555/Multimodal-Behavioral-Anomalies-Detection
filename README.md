@@ -15,7 +15,7 @@ The tool extracts faces from video frames, detects unique facial features, and a
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
-## Micro-Expressions and Paul Ekman’s Theory
+## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. 
 
 ## Key Features
