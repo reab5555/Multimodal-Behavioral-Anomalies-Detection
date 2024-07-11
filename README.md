@@ -41,24 +41,6 @@ Paul Ekman’s work on facial expressions of emotion identified universal micro-
 - `scipy`
 - `pandas`
 
-## Usage
-### Step 1: Clone the Repository
-```bash
-git clone https://github.com/username/repo.git
-cd repo
-```
-
-### Step 2: Install Required Packages
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3: Run the Script
-Set user-defined parameters in the script and execute:
-```python
-python detect_anomalies.py
-```
-
 ### Output
 - Extracted faces saved in the `aligned_faces` folder.
 - Organized faces by detected persons in the `organized_faces` folder.
