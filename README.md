@@ -41,7 +41,7 @@ Citations:
 [3] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/   
 [4] https://www.youtube.com/watch?v=8j8psgKXmRg
 
-## Dependencies
+### Dependencies
 - `torch`
 - `facenet-pytorch`
 - `mediapipe`
@@ -52,6 +52,12 @@ Citations:
 - `opencv-python`
 - `scipy`
 - `pandas`
+
+### Setup Parameters
+- `DESIRED_FPS`
+- `NUM_COMPONENTS`
+- `batch_size`
+- `VIDEO_FILE_PATH`
 
 ### Output
 - Extracted faces saved in the `aligned_faces` folder.
