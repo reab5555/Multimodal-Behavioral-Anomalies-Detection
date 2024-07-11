@@ -75,7 +75,6 @@ Citations:
 - `VIDEO_FILE_PATH`
 
 ### Output
-- Extracted faces saved in the `aligned_faces` folder.
 - Organized faces by detected persons in the `organized_faces` folder.
 - Anomalies detection results as a CSV file in the project directory.
 
@@ -102,7 +101,7 @@ Time of top 10 anomalies:
 - 00:02:45
 - 00:05:10
 
-Details saved to 'anomaly_detection_results_person_1.csv'
+Details saved to 'anomaly_detection_results.csv'
 ```
 
 ## Conclusion
