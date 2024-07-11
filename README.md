@@ -93,16 +93,16 @@ Sources:
 
 ### Detected Anomalies (Facial Features)
 <p align="left">
-<img src="appendix/anomaly_scores_all_features_plot.png" width="300" alt="alt text">
-<img src="appendix/anomaly_scores_components_plot.png" width="300" alt="alt text">
-<img src="appendix/anomaly_scores_embeddings_plot.png" width="300" alt="alt text">
+<img src="appendix/anomaly_scores_all_features_plot.png" width="250" alt="alt text">
+<img src="appendix/anomaly_scores_components_plot.png" width="250" alt="alt text">
+<img src="appendix/anomaly_scores_embeddings_plot.png" width="250" alt="alt text">
 <p/>
 
 ### Detected Anomalies (Emotions)
 <p align="left">
-<img src="appendix/angry_scores_plot.png" width="300" alt="alt text">
-<img src="appendix/fear_scores_plot.png" width="300" alt="alt text">
-<img src="appendix/sad_scores_plot.png" width="300" alt="alt text">
+<img src="appendix/angry_scores_plot.png" width="250" alt="alt text">
+<img src="appendix/fear_scores_plot.png" width="250" alt="alt text">
+<img src="appendix/sad_scores_plot.png" width="250" alt="alt text">
 <p/>
 
 ### Results and Observations
