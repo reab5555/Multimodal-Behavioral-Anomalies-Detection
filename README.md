@@ -38,6 +38,15 @@ Paul Ekman’s work on facial expressions of emotion identified universal micro-
 
 The algorithm in this repository detects these basic emotions, making it easier to understand underlying emotions and detect anomalies in facial expressions over time.
 
+## Wade Wilson
+
+Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm, displaying a "smug, soulless" demeanor that drew significant attention. He showed a lack of emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024. Wilson remains in custody awaiting the judge's decision.
+
+Citations:
+[1] https://eu.news-press.com/story/news/crime/2024/07/01/wade-wilson-deadpool-murders-victims-tattoos-florida/74267520007/
+[2] https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor
+[3] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/
+
 ## Dependencies
 - `torch`
 - `facenet-pytorch`
