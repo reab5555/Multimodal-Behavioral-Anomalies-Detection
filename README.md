@@ -50,17 +50,10 @@ This approach effectively captures temporal dependencies and subtle changes in f
 
 ## An Example from Wade Wilson Trial
 
-<img src="appendix/wade_wilson_2.png" width="350" alt="alt text">
+<img src="appendix/wade_wilson_2.jpg" width="350" alt="alt text">
 
 Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm, displaying a "smug, soulless" demeanor that drew significant attention. He showed a lack of emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024.
 
-Citations:   
-[1] https://eu.news-press.com/story/news/crime/2024/07/01/wade-wilson-deadpool-murders-victims-tattoos-florida/74267520007/   
-[2] https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor   
-[3] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/   
-[4] https://www.youtube.com/watch?v=8j8psgKXmRg
-
-### Samples
 <p align="left">
 <img src="appendix/1.jpg" width="50" alt="alt text">
 <img src="appendix/2.jpg" width="50" alt="alt text">
@@ -69,6 +62,12 @@ Citations:
 <img src="appendix/5.jpg" width="50" alt="alt text">
 <img src="appendix/6.jpg" width="50" alt="alt text">
 <p/>
+  
+Citations:   
+[1] https://eu.news-press.com/story/news/crime/2024/07/01/wade-wilson-deadpool-murders-victims-tattoos-florida/74267520007/   
+[2] https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor   
+[3] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/   
+[4] https://www.youtube.com/watch?v=8j8psgKXmRg
 
 ### LSTM Autoencoder Learning Curve
 <img src="appendix/lstm_training_loss.png" width="350" alt="alt text">
