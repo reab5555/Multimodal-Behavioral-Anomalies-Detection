@@ -62,12 +62,12 @@ Citations:
 
 ## Frames Samples
 <p align="left">
-<img src="appendix/1.jpg" width="150" alt="alt text">
-<img src="appendix/2.jpg" width="150" alt="alt text">
-<img src="appendix/3.jpg" width="150" alt="alt text">
-<img src="appendix/4.jpg" width="150" alt="alt text">
-<img src="appendix/5.jpg" width="150" alt="alt text">
-<img src="appendix/6.jpg" width="150" alt="alt text">
+<img src="appendix/1.jpg" width="100" alt="alt text">
+<img src="appendix/2.jpg" width="100" alt="alt text">
+<img src="appendix/3.jpg" width="100" alt="alt text">
+<img src="appendix/4.jpg" width="100" alt="alt text">
+<img src="appendix/5.jpg" width="100" alt="alt text">
+<img src="appendix/6.jpg" width="100" alt="alt text">
 <p/>
 
 <img src="appendix/lstm_training_loss.png" width="350" alt="alt text">
