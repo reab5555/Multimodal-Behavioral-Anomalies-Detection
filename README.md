@@ -21,8 +21,6 @@ The tool extracts faces from video frames at the desired frames per second (FPS)
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
-## Theoretical Background
-
 ### VGG-Face Model
 The VGG-Face model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
 
