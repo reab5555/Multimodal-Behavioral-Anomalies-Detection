@@ -73,7 +73,7 @@ Each method provides a different perspective on the data, enhancing our capabili
 
 ## An Example from Wade Wilson Trial
 
-<img src="appendix/wade_wilson_2.jpg" width="200" alt="alt text">
+<img src="appendix/wade_wilson_2.jpg" width="250" alt="alt text">
 
 Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm, displaying a "smug, soulless" demeanor that drew significant attention. He showed a lack of emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024.
 
