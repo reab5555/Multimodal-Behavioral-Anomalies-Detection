@@ -70,7 +70,7 @@ In our facial-expression anomaly detection, we leverage the LSTM autoencoder in 
 
 Each method provides a different perspective on the data, enhancing our capability to detect subtle and varied anomalies in facial expressions.
 
-## An Example from Wade Wilson Death Sentence Verdict Video
+## An Example from a Death Sentence Verdict
 
 <img src="appendix/wade_wilson_2.jpg" width="250" alt="alt text">
 
