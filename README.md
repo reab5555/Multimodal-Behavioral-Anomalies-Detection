@@ -13,7 +13,7 @@ The tool extracts faces from video frames, detects unique facial features, and a
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions.
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
 
-<img src="appendix/png" width="350" alt="alt text">
+<img src="appendix/diagram.png" width="350" alt="alt text">
 
 ## Practical Applications
 ### Forensic Analysis
