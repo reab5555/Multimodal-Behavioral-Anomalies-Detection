@@ -85,7 +85,7 @@ Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 
 <img src="appendix/6.jpg" width="50" alt="alt text">
 <p/>
   
-Citations:   
+Sources:   
 [1] https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor   
 [2] https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/   
 [3] https://www.youtube.com/watch?v=8j8psgKXmRg
