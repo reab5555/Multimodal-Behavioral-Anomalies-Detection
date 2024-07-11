@@ -29,7 +29,6 @@ Anger, Disgust, Fear, Happiness, Sadness, Surprise, Neutral
 
 The algorithm in this repository detects these basic emotions, making it easier to understand underlying emotions and detect anomalies in facial expressions over time.
 
-
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network trained on the VGGFace2 dataset. It is widely used for facial recognition and facial attributes extraction. 
 - **Accuracy and Reliability**: The InceptionResnetV1 model is pre-trained on the VGGFace2 dataset, which consists of millions of facial images. It achieves very high accuracy in recognizing and differentiating between faces.
@@ -71,7 +70,7 @@ In our facial-expression anomaly detection, we leverage the LSTM autoencoder in 
 
 Each method provides a different perspective on the data, enhancing our capability to detect subtle and varied anomalies in facial expressions.
 
-## An Example from Wade Wilson Trial
+## An Example from Wade Wilson Death Sentence Verdict Video
 
 <img src="appendix/wade_wilson_2.jpg" width="250" alt="alt text">
 
