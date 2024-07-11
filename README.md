@@ -1,3 +1,5 @@
+<img src="appendix/icon.jpeg" width="100" alt="alt text">
+
 # Facial-Expression-Anomality-Detection
 
 ## Introduction
