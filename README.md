@@ -18,7 +18,7 @@ The tool extracts faces from video frames at the desired frames per second (FPS)
 - Detect stress or duress in interrogation videos.
 
 ### Human Intelligence (HUMINT)
-- Analyze micro-expressions for lie detection.
+- Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
 ## Theoretical Background
