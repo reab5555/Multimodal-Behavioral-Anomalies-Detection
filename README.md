@@ -22,7 +22,7 @@ The tool extracts faces from video frames, detects unique facial features, and a
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions.
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions.
 
-<img src="appendix/diagram.svg" width="450" alt="alt text">
+<img src="appendix/diagram.svg" width="750" alt="alt text">
 
 ## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms. 
