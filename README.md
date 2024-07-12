@@ -1,6 +1,6 @@
 <img src="appendix/icon.jpeg" width="100" alt="alt text">
 
-# Facial-Expression-Anomality-Detection
+# Facial-Expression-Anomaly-Detection
 
 This repository contains an algorithm for detecting anomalies in facial expressions over the timeline of a video using time series analysis, specifically utilizing an LSTM autoencoder.
 
