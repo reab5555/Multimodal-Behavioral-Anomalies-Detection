@@ -16,8 +16,8 @@ This repository contains an advanced algorithm for detecting anomalies in facial
 
 ## Key Features
 
-- **Face Extraction**: Extracts faces from video frames using MediaPipe and MTCNN.
-- **Face Alignment**: Aligns and normalizes faces for consistent analysis.
+- **Face Extraction**: Extracts faces from video frames using MTCNN model.
+- **Face Alignment**: Aligns and normalizes faces using MediaPipe for consistent analysis.
 - **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1/VGG-Face model.
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions using the FER model.
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions over time.
