@@ -22,6 +22,8 @@ This repository contains an advanced algorithm for detecting anomalies in facial
 - **Emotion Detection**: Identifies facial expressions and categorizes emotions using the FER model.
 - **Anomaly Detection**: Uses an LSTM autoencoder to detect anomalies in facial expressions over time.
 
+<img src="appendix/diagram.svg" width="1050" alt="alt text">
+
 ## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, which last only milliseconds, are incredibly difficult for humans to detect but can be captured and analyzed using computer vision algorithms.
 
@@ -56,13 +58,6 @@ This approach effectively captures temporal dependencies and subtle changes in f
 
 Each method provides a different perspective on the data, enhancing our capability to detect subtle and varied anomalies in facial expressions.
 
-## An Example from a Death Sentence Verdict
-Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson exhibited a "smug, soulless" demeanor, displaying a lack of emotion throughout the proceedings. The jury recommended the death penalty, with the final sentencing set for July 23, 2024. Despite Wilson's cold demeanor, the LSTM autoencoder detected emotional anomalies during critical moments, suggesting that mentions of the death penalty had a marked impact on Wilson.
-
-Sources:
-1. [Fox News](https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor)
-2. [WINK News](https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/)
-3. [YouTube](https://www.youtube.com/watch?v=8j8psgKXmRg)
 
 ## Setup Parameters
 - **DESIRED_FPS**: Frames per second to analyze (lower for faster processing).
@@ -83,6 +78,40 @@ Clusters faces to organize them by person.
 
 ## LSTM Autoencoder for Anomaly Detection
 Trains an LSTM autoencoder to identify anomalies in facial expressions over time, helping capture temporal dependencies and irregularities in the sequence of facial expressions and feature embeddings.
+
+## An Example from a Death Sentence Verdict
+
+<img src="appendix/wade_wilson_2.jpg" width="250" alt="alt text">
+
+Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm. He showed a lack of emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024.
+
+<p align="left">
+<img src="appendix/1.jpg" width="50" alt="alt text">
+<img src="appendix/2.jpg" width="50" alt="alt text">
+<img src="appendix/3.jpg" width="50" alt="alt text">
+<img src="appendix/4.jpg" width="50" alt="alt text">
+<img src="appendix/5.jpg" width="50" alt="alt text">
+<img src="appendix/6.jpg" width="50" alt="alt text">
+<p/>
+  
+Sources:
+1. [Fox News](https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor)
+2. [WINK News](https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/)
+3. [YouTube](https://www.youtube.com/watch?v=8j8psgKXmRg)
+
+### Detected Anomalies (Facial Features)
+<p align="left">
+<img src="appendix/anomaly_scores_all_features_plot.png" width="250" alt="alt text">
+<img src="appendix/anomaly_scores_components_plot.png" width="250" alt="alt text">
+<img src="appendix/anomaly_scores_embeddings_plot.png" width="250" alt="alt text">
+<p/>
+
+### Detected Anomalies (Emotions)
+<p align="left">
+<img src="appendix/angry_scores_plot.png" width="250" alt="alt text">
+<img src="appendix/fear_scores_plot.png" width="250" alt="alt text">
+<img src="appendix/sad_scores_plot.png" width="250" alt="alt text">
+<p/>
 
 ## Conclusion
 This tool offers robust solutions for detecting emotional anomalies in video-based facial expressions, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques and the power of LSTM autoencoders, it provides timely and crucial insights into human behavior.
