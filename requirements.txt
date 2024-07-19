@@ -1,10 +1,11 @@
 opencv-python
 numpy
+tensorflow
 torch
 torchvision
+torchaudio
 facenet-pytorch
 mediapipe
-tensorflow[and-cuda]
 fer
 scikit-learn
 umap-learn
