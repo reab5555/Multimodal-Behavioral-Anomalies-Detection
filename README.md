@@ -65,11 +65,8 @@ Sources:
 3. [YouTube](https://www.youtube.com/watch?v=8j8psgKXmRg)
 
 ## Setup Parameters
-- **NUM_ANOMALIES**: Number of anomalies to detect.
 - **DESIRED_FPS**: Frames per second to analyze (lower for faster processing).
-- **NUM_COMPONENTS**: Number of components for UMAP reduction.
 - **batch_size**: Batch size for processing.
-- **VIDEO_FILE_PATH**: Path to the video file.
 
 ## Output
 - **Organized Faces**: Faces organized by detected persons in the `organized_faces` folder.
@@ -86,18 +83,6 @@ Clusters faces to organize them by person.
 
 ## LSTM Autoencoder for Anomaly Detection
 Trains an LSTM autoencoder to identify anomalies in facial expressions over time, helping capture temporal dependencies and irregularities in the sequence of facial expressions and feature embeddings.
-
-## Dependencies
-- `torch`
-- `facenet-pytorch`
-- `mediapipe`
-- `FER`
-- `sklearn`
-- `umap-learn`
-- `tqdm`
-- `opencv-python`
-- `scipy`
-- `pandas`
 
 ## Conclusion
 This tool offers robust solutions for detecting emotional anomalies in video-based facial expressions, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques and the power of LSTM autoencoders, it provides timely and crucial insights into human behavior.
