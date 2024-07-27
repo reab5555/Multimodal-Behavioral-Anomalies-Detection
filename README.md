@@ -31,31 +31,23 @@ The InceptionResnetV1 model is a deep convolutional neural network used for faci
 - **Feature Richness**: The embeddings capture rich facial details, essential for recognizing subtle expressions and variations.
 - **Global Recognition**: Widely adopted in various facial recognition applications, demonstrating reliability and robustness across different scenarios.
 
-## Variational Autoencoder (VAE)
-A Variational Autoencoder (VAE) is a type of neural network that learns to encode input data (like facial embeddings or posture scores) into a latent space and then reconstructs the data from this latent representation. VAEs not only learn to compress data but also to generate new data, making them particularly useful for anomaly detection.
-
-- **Probabilistic Nature**: VAEs introduce a probabilistic approach to encoding, where the encoded representations are not single fixed points but distributions. This allows the model to learn a more robust representation of the data.
-- **Reconstruction and Generation**: By comparing the reconstructed data to the original, VAEs can measure reconstruction errors. High errors indicate anomalies, as such data points do not conform well to the learned normal patterns.
-
-### Methods of Anomaly Detection:
-1. **Using Full-Dimensional Embeddings**: Directly analyzes the raw facial embeddings without dimensionality reduction.
-2. **Using Posture Scores**: Evaluates body posture scores extracted from video frames.
-
-## MediaPipe Pose Model/Library
+## MediaPipe Pose
 MediaPipe Pose is a versatile machine learning library designed for high-accuracy real-time posture estimation. Mediapipe Pose uses a deep learning model to detect body landmarks and infer body posture.
 
 - **Real-Time Performance**: Capable of processing video frames at real-time speeds, making it suitable for live video analysis.
 - **Accuracy and Precision**: Detects 33 body landmarks, including important joints and key points, enabling detailed posture and movement analysis.
 - **Integration**: Easily integrates with other machine learning frameworks and tools, enhancing its versatility for various applications.
 
+## Variational Autoencoder (VAE)
+A Variational Autoencoder (VAE) is a type of neural network that learns to encode input data (like facial embeddings or posture scores) into a latent space and then reconstructs the data from this latent representation. VAEs not only learn to compress data but also to generate new data, making them particularly useful for anomaly detection.
+
+- **Probabilistic Nature**: VAEs introduce a probabilistic approach to encoding, where the encoded representations are not single fixed points but distributions. This allows the model to learn a more robust representation of the data.
+- **Reconstruction and Generation**: By comparing the reconstructed data to the original, VAEs can measure reconstruction errors. High errors indicate anomalies, as such data points do not conform well to the learned normal patterns.
+
 ## Setup Parameters
-- **DESIRED_FPS**: Frames per second to analyze (lower for faster processing).
-- **ANOMALY_THRESHOLD**: Threshold for detecting anomalies.
-
-## Output
-- **Organized Faces**: Faces organized by detected persons in the `organized_faces` folder.
-- **Anomalies Detection Results**: Results and identified anomalies displayed and saved in the project directory.
-
+- **Frames Per Second (FPS)**: Frames per second to analyze (lower for faster processing).
+- **Anomaly Detection Threshold**: Threshold for detecting anomalies (Standard Deviation).
+  
 ## Example Scenario
 
 ### An Example from a Death Sentence Verdict
