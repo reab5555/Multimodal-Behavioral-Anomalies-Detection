@@ -100,5 +100,22 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 
 When President Clinton was directly questioned about his relationship with Monica Lewinsky, anomalies were detected in his facial expressions, suggesting discomfort or deception.
 
+## Limitations
+
+### Unsupervised Methodology
+
+- **Evaluation Challenges**: Since this is an unsupervised method, there is no labeled data to compare against. This makes it difficult to quantitatively evaluate the accuracy or effectiveness of the anomaly detection.
+- **Subjectivity**: The concept of what constitutes an "anomaly" can be subjective and context-dependent. This can lead to false positives or negatives depending on the situation.
+
+### Data Quality and Quantity
+
+- **Lighting and Resolution**: Variability in lighting conditions, camera resolution, and frame rate can affect the quality of detected features and postures, leading to inconsistent results.
+- **Occlusions**: Faces and body parts that are partially obstructed or occluded can result in inaccurate embeddings and postural data.
+
+### Model Limitations
+
+- **Generalization**: The model may not generalize well to all types of videos and contexts. For example, trained embeddings may work well for a specific demographic but poorly for another.
+- **Computationally Intensive**: Real-time processing of high-resolution video frames can be computationally demanding, requiring significant hardware resources.
+
 ## Conclusion
-This tool offers robust solutions for detecting emotional and posture anomalies in video-based facial expressions and body language, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner.
+This tool offers solutions for detecting emotional and posture anomalies in video-based facial expressions and body language, beneficial for both forensic analysis and HUMINT operations. However, users should be aware of its limitations and the challenges inherent in unsupervised anomaly detection methodologies. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner, but results should be interpreted with caution and, where possible, supplemented with additional context and expert analysis.
