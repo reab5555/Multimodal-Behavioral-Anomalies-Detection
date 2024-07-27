@@ -83,5 +83,22 @@ Sources:
 <img src="appendix/posture_mse_plot.png" width="250" alt="alt text">
 <p/>
 
+### President Clinton's Interview with Jim Lehrer regarding Monica Lewinsky
+
+President Bill Clinton's interview with Jim Lehrer about his relationship with Monica Lewinsky is another prominent example for testing our algorithm. During this interview, Clinton was asked difficult questions, and his facial expressions and body language were scrutinized. Our anomaly detection algorithm can identify key points where he was visibly distressed or potentially lying, appearing as anomalies in the detected data.
+
+<p align="left">
+<img src="appendix/clinton_lehrer_1.jpg" width="250" alt="alt text">
+<img src="appendix/clinton_lehrer_2.jpg" width="250" alt="alt text">
+<p/>
+
+#### Detected Anomalies (Facial Features and Body Posture)
+<p align="left">
+<img src="appendix/clinton_face_anomaly_scores_plot.png" width="250" alt="alt text">
+<img src="appendix/clinton_body_posture_anomaly_scores_plot.png" width="250" alt="alt text">
+<p/>
+
+When President Clinton was directly questioned about his relationship with Monica Lewinsky, anomalies were detected in his facial expressions, suggesting discomfort or deception.
+
 ## Conclusion
 This tool offers robust solutions for detecting emotional and posture anomalies in video-based facial expressions and body language, beneficial for both forensic analysis and HUMINT operations. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner.
