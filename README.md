@@ -111,10 +111,6 @@ When President Clinton was directly questioned about his relationship with Monic
 ### Data Quality and Quantity
 
 - **Lighting and Resolution**: Variability in lighting conditions, camera resolution, and frame rate can affect the quality of detected features and postures, leading to inconsistent results.
-- **Occlusions**: Faces and body parts that are partially obstructed or occluded can result in inaccurate embeddings and postural data.
-
-### Model Limitations
-
 - **Generalization**: The model may not generalize well to all types of videos and contexts. For example, trained embeddings may work well for a specific demographic but poorly for another.
 - **Computationally Intensive**: Real-time processing of high-resolution video frames can be computationally demanding, requiring significant hardware resources.
 
