@@ -49,9 +49,9 @@ A Variational Autoencoder (VAE) is a type of neural network that learns to encod
 - **Frames Per Second (FPS)**: Frames per second to analyze (lower for faster processing).
 - **Anomaly Detection Threshold**: Threshold for detecting anomalies (Standard Deviation).
   
-## Example Scenario
+## Examples
 
-### An Example from a Death Sentence Verdict
+### A Death Sentence Verdict
 
 <img src="appendix/wade_wilson_2.jpg" width="250" alt="alt text">
 
