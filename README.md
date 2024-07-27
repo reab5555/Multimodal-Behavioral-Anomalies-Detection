@@ -1,4 +1,4 @@
-# Facial-Expression-Anomaly-Detection
+# Anomaly Detection in Facial Expressions and Body Language
 
 This repository contains an advanced algorithm for detecting anomalies in facial expressions and body language over the timeline of a video. The tool extracts faces and postures from video frames, detects unique facial features and body postures, and analyzes them to identify anomalies using time series analysis, specifically utilizing a variational autoencoder (VAE) approach.
 
