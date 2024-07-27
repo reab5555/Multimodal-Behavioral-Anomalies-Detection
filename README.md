@@ -13,7 +13,7 @@ It extracts faces and postures from video frames, detects unique facial features
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
 
-## Key Features
+## Features
 
 - **Face Extraction**: Extracts faces from video frames using the MTCNN model.
 - **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1 model.
