@@ -20,7 +20,7 @@ It extracts faces and postures from video frames, detects unique facial features
 - **Body Posture Analysis**: Evaluates body postures using MediaPipe Pose.
 - **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions and body postures over time.
 
-<img src="appendix/Anomay Detection.svg" width="1050" alt="alt text">
+<img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
 
 ## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, lasting only milliseconds, are challenging to detect but can be captured and analyzed using computer vision algorithms when analyzing frame-by-frame.
