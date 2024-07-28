@@ -19,6 +19,7 @@ It extracts faces and postures from video frames, detects unique facial features
 - **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1 model.
 - **Body Posture Analysis**: Evaluates body postures using MediaPipe Pose.
 - **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions and body postures over time.
+- **Visualization**: Representing the changes in facial expressions and body postures over time and marking anomaly key points.
 
 <img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
 
