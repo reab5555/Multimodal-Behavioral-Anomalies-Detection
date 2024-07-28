@@ -63,7 +63,9 @@ Micro-expressions are brief, involuntary facial expressions that typically last 
 - **Frame Interval** Each frame is captured every 50 milliseconds.
 - **Effectiveness** While 20 fps is better than 10 fps, it is still inadequate. Micro-expressions can still occur and resolve within the 50-millisecond interval between frames, leading to incomplete or missed captures.
 
-### High-Speed Cameras: Effective capture of micro-expressions generally requires frame rates above 100 fps. High-speed video systems designed for micro-expression detection often operate at 118 fps or higher, with some systems reaching up to 200 fps.
+### High-Speed Cameras
+
+Effective capture of micro-expressions generally requires frame rates above 100 fps. High-speed video systems designed for micro-expression detection often operate at 118 fps or higher, with some systems reaching up to 200 fps.
 
 
 ## Examples
