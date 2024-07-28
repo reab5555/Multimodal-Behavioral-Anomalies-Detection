@@ -26,6 +26,21 @@ It extracts faces and postures from video frames, detects unique facial features
 ## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, lasting only milliseconds, are challenging to detect but can be captured and analyzed using computer vision algorithms when analyzing frame-by-frame.
 
+### Micro-Expressions and Frame Rate Analysis
+Micro-expressions are brief, involuntary facial expressions that typically last between 1/25 to 1/5 of a second (40-200 milliseconds). To capture these fleeting expressions, a high frame rate is essential.
+
+### 10 fps
+
+- **Frame Interval** Each frame is captured every 100 milliseconds.
+- **Effectiveness** Given that micro-expressions can last as short as 40 milliseconds, a frame rate of 10 fps is insufficient. Many micro-expressions would begin and end between frames, making it highly likely that they would be missed entirely.
+
+
+### 20 fps
+
+- **Frame Interval** Each frame is captured every 50 milliseconds.
+- **Effectiveness** While 20 fps is better than 10 fps, it is still inadequate. Micro-expressions can still occur and resolve within the 50-millisecond interval between frames, leading to incomplete or missed captures.
+
+
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network used for facial recognition and facial attribute extraction.
 
