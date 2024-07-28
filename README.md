@@ -23,24 +23,6 @@ It extracts faces and postures from video frames, detects unique facial features
 
 <img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
 
-## Micro-Expressions
-Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, lasting only milliseconds, are challenging to detect but can be captured and analyzed using computer vision algorithms when analyzing frame-by-frame.
-
-### Micro-Expressions and Frame Rate Analysis
-Micro-expressions are brief, involuntary facial expressions that typically last between 1/25 to 1/5 of a second (40-200 milliseconds). To capture these fleeting expressions, a high frame rate is essential.
-
-### 10 fps
-
-- **Frame Interval** Each frame is captured every 100 milliseconds.
-- **Effectiveness** Given that micro-expressions can last as short as 40 milliseconds, a frame rate of 10 fps is insufficient. Many micro-expressions would begin and end between frames, making it highly likely that they would be missed entirely.
-
-
-### 20 fps
-
-- **Frame Interval** Each frame is captured every 50 milliseconds.
-- **Effectiveness** While 20 fps is better than 10 fps, it is still inadequate. Micro-expressions can still occur and resolve within the 50-millisecond interval between frames, leading to incomplete or missed captures.
-
-
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network used for facial recognition and facial attribute extraction.
 
@@ -64,7 +46,26 @@ A Variational Autoencoder (VAE) is a type of neural network that learns to encod
 ## Setup Parameters
 - **Frames Per Second (FPS)**: Frames per second to analyze (lower for faster processing).
 - **Anomaly Detection Threshold**: Threshold for detecting anomalies (Standard Deviation).
-  
+
+## Micro-Expressions
+Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, lasting only milliseconds, are challenging to detect but can be captured and analyzed using computer vision algorithms when analyzing frame-by-frame.
+
+### Micro-Expressions and Frame Rate Analysis
+Micro-expressions are brief, involuntary facial expressions that typically last between 1/25 to 1/5 of a second (40-200 milliseconds). To capture these fleeting expressions, a high frame rate is essential.
+
+### 10 fps
+
+- **Frame Interval** Each frame is captured every 100 milliseconds.
+- **Effectiveness** Given that micro-expressions can last as short as 40 milliseconds, a frame rate of 10 fps is insufficient. Many micro-expressions would begin and end between frames, making it highly likely that they would be missed entirely.
+
+### 20 fps
+
+- **Frame Interval** Each frame is captured every 50 milliseconds.
+- **Effectiveness** While 20 fps is better than 10 fps, it is still inadequate. Micro-expressions can still occur and resolve within the 50-millisecond interval between frames, leading to incomplete or missed captures.
+
+### High-Speed Cameras: Effective capture of micro-expressions generally requires frame rates above 100 fps. High-speed video systems designed for micro-expression detection often operate at 118 fps or higher, with some systems reaching up to 200 fps.
+
+
 ## Examples
 
 ### A Death Sentence Verdict
@@ -129,6 +130,9 @@ When President Clinton was directly questioned about his relationship with Monic
 - **Lighting and Resolution**: Variability in lighting conditions, camera resolution, and frame rate can affect the quality of detected features and postures, leading to inconsistent results.
 - **Generalization**: The model may not generalize well to all types of videos and contexts. For example, trained embeddings may work well for a specific demographic but poorly for another.
 - **Computationally Intensive**: Real-time processing of high-resolution video frames can be computationally demanding, requiring significant hardware resources.
+
+### Micro-Expressions and Frame Rate Limitations
+Videos recorded at 10 or 20 fps are not suitable for reliably capturing micro-expressions due to their rapid onset and brief duration. Higher frame rates, typically above 100 fps, are essential to ensure that these fleeting expressions are accurately captured and analyzed.
 
 ## Conclusion
 This tool offers solutions for detecting emotional and posture anomalies in video-based facial expressions and body language, beneficial for both forensic analysis and HUMINT operations. However, users should be aware of its limitations and the challenges inherent in unsupervised anomaly detection methodologies. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner, but results should be interpreted with caution and, where possible, supplemented with additional context and expert analysis.
