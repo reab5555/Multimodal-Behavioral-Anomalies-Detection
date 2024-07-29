@@ -39,7 +39,6 @@ MediaPipe Pose is a versatile machine learning library designed for high-accurac
 ## Voice Analysis
 The voice analysis module involves extracting and analyzing vocal features using speaker diarization and embedding models to capture key characteristics of the speaker's voice.
 
-### Using PyAnnote and Diarization
 PyAnnote is a toolkit for speaker diarization and voice analysis.
 - **Speaker Diarization**: Identifies voice segments and classifies them by speaker.
 - **Speaker Embeddings**: Captures voice characteristics using a pre-trained embedding model.
