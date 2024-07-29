@@ -1,25 +1,24 @@
 # Multimodal Behavioral Anomalies Detection
 
-The purpose of this tool is to detect anomalies in facial expressions and body language over the timeline of a video.   
-It extracts faces and postures from video frames, detects unique facial features and body postures, and analyzes them to identify anomalies using time series analysis, specifically utilizing a variational autoencoder (VAE) approach.
+The purpose of this tool is to detect anomalies in facial expressions, body language, and voice over the timeline of a video.   
+
+It extracts faces, postures, and voice features from video frames, detects unique facial features, body postures, and speaker embeddings, and analyzes them to identify anomalies using time series analysis, specifically utilizing a variational autoencoder (VAE) approach.   
 
 ## Applications
 
-### Forensic Analysis
 - Identify suspicious behavior in surveillance footage.
-- Detect stress or duress in interrogation videos.
-
-### Human Intelligence (HUMINT)
 - Analyze micro-expressions.
 - Monitor and assess emotional states in communications.
-
-## Features
+- Evaluate changes in vocal tone and speech patterns.
+-
+- ## Features
 
 - **Face Extraction**: Extracts faces from video frames using the MTCNN model.
 - **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1 model.
 - **Body Posture Analysis**: Evaluates body postures using MediaPipe Pose.
-- **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions and body postures over time.
-- **Visualization**: Representing the changes in facial expressions and body postures over time and marking anomaly key points.
+- **Voice Analysis**: Extracts and segment speaker embeddings from audio using PyAnnote.
+- **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions, body postures, and voice features over time.
+- **Visualization**: Represents changes in facial expressions, body postures, and vocal tone over time, marking anomaly key points.
 
 <img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
 
@@ -36,6 +35,14 @@ MediaPipe Pose is a versatile machine learning library designed for high-accurac
 - **Real-Time Performance**: Capable of processing video frames at real-time speeds, making it suitable for live video analysis.
 - **Accuracy and Precision**: Detects 33 body landmarks, including important joints and key points, enabling detailed posture and movement analysis.
 - **Integration**: Easily integrates with other machine learning frameworks and tools, enhancing its versatility for various applications.
+
+## Voice Analysis
+The voice analysis module involves extracting and analyzing vocal features using speaker diarization and embedding models to capture key characteristics of the speaker's voice.
+
+### Using PyAnnote and Diarization
+PyAnnote is a toolkit for speaker diarization and voice analysis.
+- **Speaker Diarization**: Identifies voice segments and classifies them by speaker.
+- **Speaker Embeddings**: Captures voice characteristics using a pre-trained embedding model.
 
 ## Variational Autoencoder (VAE)
 A Variational Autoencoder (VAE) is a type of neural network that learns to encode input data (like facial embeddings or posture scores) into a latent space and then reconstructs the data from this latent representation. VAEs not only learn to compress data but also to generate new data, making them particularly useful for anomaly detection.
@@ -122,14 +129,10 @@ When President Clinton was directly questioned about his relationship with Monic
 
 ## Limitations
 
-### Unsupervised Methodology
-
 - **Evaluation Challenges**: Since this is an unsupervised method, there is no labeled data to compare against. This makes it difficult to quantitatively evaluate the accuracy or effectiveness of the anomaly detection.
 - **Subjectivity**: The concept of what constitutes an "anomaly" can be subjective and context-dependent. This can lead to false positives or negatives depending on the situation.
-
-### Data Quality and Quantity
-
 - **Lighting and Resolution**: Variability in lighting conditions, camera resolution, and frame rate can affect the quality of detected features and postures, leading to inconsistent results.
+- **Audio Quality**: Background noise, poor audio quality, and overlapping speech can affect the accuracy of speaker diarization and voice embeddings.
 - **Generalization**: The model may not generalize well to all types of videos and contexts. For example, trained embeddings may work well for a specific demographic but poorly for another.
 - **Computationally Intensive**: Real-time processing of high-resolution video frames can be computationally demanding, requiring significant hardware resources.
 
@@ -137,4 +140,4 @@ When President Clinton was directly questioned about his relationship with Monic
 Videos recorded at 10 or 20 fps are not suitable for reliably capturing micro-expressions due to their rapid onset and brief duration. Higher frame rates, typically above 100 fps, are essential to ensure that these fleeting expressions are accurately captured and analyzed.
 
 ## Conclusion
-This tool offers solutions for detecting emotional and posture anomalies in video-based facial expressions and body language, beneficial for both forensic analysis and HUMINT operations. However, users should be aware of its limitations and the challenges inherent in unsupervised anomaly detection methodologies. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner, but results should be interpreted with caution and, where possible, supplemented with additional context and expert analysis.
+This tool offers solutions for detecting emotional, posture, and vocal anomalies in video-based facial expressions, body language, and speech, beneficial for both forensic analysis and HUMINT operations. However, users should be aware of its limitations and the challenges inherent in unsupervised anomaly detection methodologies. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner, but results should be interpreted with caution and, where possible, supplemented with additional context and expert analysis.
