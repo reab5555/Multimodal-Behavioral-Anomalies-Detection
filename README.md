@@ -134,7 +134,7 @@ When President Clinton was directly questioned about his relationship with Monic
 - **Audio Quality**: Background noise, poor audio quality, and overlapping speech can affect the accuracy of speaker diarization and voice embeddings.
 - **Generalization**: The model may not generalize well to all types of videos and contexts. For example, trained embeddings may work well for a specific demographic but poorly for another.
 - **Computationally Intensive**: Real-time processing of high-resolution video frames can be computationally demanding, requiring significant hardware resources.
-- **Micro-Expressions and Frame Rate Limitations**: Videos recorded at 10 or 20 fps are not suitable for reliably capturing micro-expressions due to their rapid onset and brief duration. Higher frame rates, typically above 100 fps, are essential to ensure that these fleeting expressions are accurately captured and analyzed.
+- **Frame Rate Limitations**: Videos recorded at 10 or 20 fps are not suitable for reliably capturing micro-expressions due to their rapid onset and brief duration.
 
 ## Conclusion
 This tool offers solutions for detecting emotional, posture, and vocal anomalies in video-based facial expressions, body language, and speech, beneficial for both forensic analysis and HUMINT operations. However, users should be aware of its limitations and the challenges inherent in unsupervised anomaly detection methodologies. By leveraging advanced computer vision techniques and the power of autoencoders, it provides crucial insights into human behavior in a timely manner, but results should be interpreted with caution and, where possible, supplemented with additional context and expert analysis.
