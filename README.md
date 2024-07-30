@@ -33,7 +33,7 @@ The InceptionResnetV1 model is a deep convolutional neural network used for faci
 MediaPipe Pose is a versatile machine learning library designed for high-accuracy real-time posture estimation. Mediapipe Pose uses a deep learning model to detect body landmarks and infer body posture.
 
 - **Real-Time Performance**: Capable of processing video frames at real-time speeds, making it suitable for live video analysis.
-- **Accuracy and Precision**: Detects 33 body landmarks, including important joints and key points, enabling detailed posture and movement analysis.
+- **Accuracy and Precision**: Detects body landmarks, including important joints and key points, enabling detailed posture and movement analysis.
 - **Integration**: Easily integrates with other machine learning frameworks and tools, enhancing its versatility for various applications.
 
 ## Voice Analysis
