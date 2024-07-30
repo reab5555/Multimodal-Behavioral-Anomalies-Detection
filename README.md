@@ -1,3 +1,5 @@
+<img src="appendix/icon.jpeg" width="100" alt="alt text">
+
 # Multimodal Behavioral Anomalies Detection
 
 The purpose of this tool is to detect anomalies in facial expressions, body language, and voice over the timeline of a video.   
