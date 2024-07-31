@@ -2,9 +2,7 @@
 
 # Multimodal Behavioral Anomalies Detection
 
-The purpose of this tool is to detect anomalies in facial expressions, body language, and voice over the timeline of a video.   
-
-It extracts faces, postures, and voice features from video frames, detects unique facial features, body postures, and speaker embeddings, and analyzes them to identify anomalies using time series analysis, specifically utilizing a variational autoencoder (VAE) approach.   
+The purpose of this project is to detect anomalies in facial expressions, body posture or movement, and voice over the timeline of a video utilizing a variational autoencoder (VAE) approach.   
 
 ## Applications
 
