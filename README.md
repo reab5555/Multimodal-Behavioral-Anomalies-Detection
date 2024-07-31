@@ -115,10 +115,10 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 
 #### Results
 <p align="left">
-<img src="appendix/example_1_graph_1.png" width="250" alt="alt text">
-<img src="appendix/example_1_graph_2.png" width="250" alt="alt text">
-<img src="appendix/example_1_graph_3.png" width="250" alt="alt text">
-<img src="appendix/example_1_graph_4.png" width="250" alt="alt text">
+<img src="appendix/example_2_graph_1.png" width="250" alt="alt text">
+<img src="appendix/example_2_graph_2.png" width="250" alt="alt text">
+<img src="appendix/example_2_graph_3.png" width="250" alt="alt text">
+<img src="appendix/example_2_graph_4.png" width="250" alt="alt text">
 <p/>
 
 When President Clinton was directly questioned about his relationship with Monica Lewinsky, anomalies were detected in his facial expressions, suggesting discomfort or deception.
