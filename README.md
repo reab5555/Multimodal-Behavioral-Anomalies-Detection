@@ -94,20 +94,18 @@ Sources:
 2. [WINK News](https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/)
 3. [YouTube](https://www.youtube.com/watch?v=8j8psgKXmRg)
 
-### Detected Anomalies (Facial Features)
 <p align="left">
 <img src="appendix/anomaly_scores_all_features_plot.png" width="250" alt="alt text">
 <img src="appendix/anomaly_scores_components_plot.png" width="250" alt="alt text">
 <img src="appendix/anomaly_scores_embeddings_plot.png" width="250" alt="alt text">
 <p/>
 
-### Detected Anomalies (Body Posture)
 <p align="left">
 <img src="appendix/posture_scores_plot.png" width="250" alt="alt text">
 <img src="appendix/posture_mse_plot.png" width="250" alt="alt text">
 <p/>
 
-### President Clinton's Interview with Jim Lehrer regarding Monica Lewinsky
+### Clinton-Lehrer Interview
 
 <img src="appendix/bill.png" width="250" alt="alt text">
 
