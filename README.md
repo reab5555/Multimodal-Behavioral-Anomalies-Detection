@@ -141,8 +141,6 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 
 <img src="appendix/example_2_graph_7.webp" width="450" alt="alt text">
 
-When President Clinton was directly questioned about his relationship with Monica Lewinsky, anomalies were detected in his facial expressions, suggesting discomfort or deception.
-
 ## Limitations
 
 - **Evaluation Challenges**: Since this is an unsupervised method, there is no labeled data to compare against. This makes it difficult to quantitatively evaluate the accuracy or effectiveness of the anomaly detection.
