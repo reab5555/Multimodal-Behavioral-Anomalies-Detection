@@ -114,12 +114,13 @@ Sources:
 President Bill Clinton's interview with Jim Lehrer about his relationship with Monica Lewinsky is another prominent example for testing our algorithm. During this interview, Clinton was asked difficult questions, and his facial expressions and body language were scrutinized. Our anomaly detection algorithm can identify key points where he was visibly distressed or potentially lying, appearing as anomalies in the detected data.
 
 #### Results
-<p align="left">
-<img src="appendix/example_2_graph_1.webp" width="250" alt="alt text">
-<img src="appendix/example_2_graph_2.webp" width="250" alt="alt text">
-<img src="appendix/example_2_graph_3.webp" width="250" alt="alt text">
-<img src="appendix/example_2_graph_4.webp" width="250" alt="alt text">
-<p/>
+<img src="appendix/example_2_graph_1.webp" width="450" alt="alt text">
+<img src="appendix/example_2_graph_2.webp" width="450" alt="alt text">
+<img src="appendix/example_2_graph_3.webp" width="450" alt="alt text">
+<img src="appendix/example_2_graph_4.webp" width="450" alt="alt text">
+<img src="appendix/example_2_graph_5.webp" width="450" alt="alt text">
+<img src="appendix/example_2_graph_6.webp" width="450" alt="alt text">
+<img src="appendix/example_2_graph_7.webp" width="450" alt="alt text">
 
 When President Clinton was directly questioned about his relationship with Monica Lewinsky, anomalies were detected in his facial expressions, suggesting discomfort or deception.
 
