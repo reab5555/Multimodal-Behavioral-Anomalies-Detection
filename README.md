@@ -13,10 +13,10 @@ The purpose of this project is to detect anomalies in facial expressions, body p
 
 ## Features
 
-- **Face Extraction**: Extracts faces from video frames using the MTCNN model.
-- **Feature Embeddings**: Extracts facial feature embeddings using the InceptionResnetV1 model.
+- **Face Extraction**: Extracts faces from video frames.
+- **Feature Embeddings**: Extracts facial feature embeddings.
 - **Body Posture Analysis**: Evaluates body postures using MediaPipe Pose.
-- **Voice Analysis**: Extracts and segment speaker embeddings from audio using PyAnnote.
+- **Voice Analysis**: Extracts and segment speaker embeddings from audio.
 - **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions, body postures, and voice features over time.
 - **Visualization**: Represents changes in facial expressions, body postures, and vocal tone over time, marking anomaly key points.
 
