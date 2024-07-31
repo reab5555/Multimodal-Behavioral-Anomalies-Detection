@@ -22,8 +22,8 @@ It extracts faces, postures, and voice features from video frames, detects uniqu
 - **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions, body postures, and voice features over time.
 - **Visualization**: Represents changes in facial expressions, body postures, and vocal tone over time, marking anomaly key points.
 
-<img src="appendix/Anomay Detection Simple.png" width="1050" alt="alt text">
-<img src="appendix/Anomay Detection.png" width="500" alt="alt text">
+<img src="appendix/Anomay Detection Simple.png" width="500" alt="alt text">
+<img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
 
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network used for facial recognition and facial attribute extraction.
@@ -52,7 +52,7 @@ A Variational Autoencoder (VAE) is a type of neural network that learns to encod
 - **Probabilistic Nature**: VAEs introduce a probabilistic approach to encoding, where the encoded representations are not single fixed points but distributions. This allows the model to learn a more robust representation of the data.
 - **Reconstruction and Generation**: By comparing the reconstructed data to the original, VAEs can measure reconstruction errors. High errors indicate anomalies, as such data points do not conform well to the learned normal patterns.
 
-<img src="appendix/VAE_Basic.png" width="400" alt="alt text">
+<img src="appendix/VAE_Basic.png" width="300" alt="alt text">
 
 ## Setup Parameters
 - **Frames Per Second (FPS)**: Frames per second to analyze (lower for faster processing).
