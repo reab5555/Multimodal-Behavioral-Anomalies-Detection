@@ -116,13 +116,14 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 #### Results
 
 <p align="left">
-<img src="appendix/example_2_graph_1.webp" width="400" alt="alt text">
-<p/>
+    <img src="appendix/example_2_graph_1.webp" width="400" alt="Graph 1">
+</p>
 
 <p align="right">
-<img src="appendix/example_2_graph_2.webp" width="200" alt="alt text">
-<img src="appendix/example_2_graph_3.webp" width="200" alt="alt text">
-<p/>
+    <img src="appendix/example_2_graph_2.webp" width="200" alt="Graph 2" style="display:block;">
+    <img src="appendix/example_2_graph_3.webp" width="200" alt="Graph 3" style="display:block; margin-top:20px;">
+</p>
+
 
 <p align="left">
 <img src="appendix/example_2_graph_4.webp" width="450" alt="alt text">
