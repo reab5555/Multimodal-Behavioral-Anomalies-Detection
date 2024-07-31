@@ -23,6 +23,7 @@ It extracts faces, postures, and voice features from video frames, detects uniqu
 - **Visualization**: Represents changes in facial expressions, body postures, and vocal tone over time, marking anomaly key points.
 
 <img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
+<img src="appendix/Anomay Detection Simple.png" width="500" alt="alt text">
 
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network used for facial recognition and facial attribute extraction.
