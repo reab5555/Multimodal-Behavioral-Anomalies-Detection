@@ -120,8 +120,8 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <p/>
 
 <p align="right">
-<img src="appendix/example_2_graph_2.webp" width="400" alt="alt text">
-<img src="appendix/example_2_graph_3.webp" width="400" alt="alt text">
+<img src="appendix/example_2_graph_2.webp" width="200" alt="alt text">
+<img src="appendix/example_2_graph_3.webp" width="200" alt="alt text">
 <p/>
 
 <p align="left">
