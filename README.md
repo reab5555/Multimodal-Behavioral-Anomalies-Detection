@@ -121,6 +121,7 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
     <td>
       <img src="appendix/example_2_graph_2.webp" width="500" alt="Graph 2"><br>
       <img src="appendix/example_2_graph_3.webp" width="500" alt="Graph 3">
+      <img src="appendix/example_2_graph_7.webp" width="450" alt="Graph 7">
     </td>
   </tr>
 </table>
@@ -137,7 +138,6 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
   </tr>
 </table>
 
-<img src="appendix/example_2_graph_7.webp" width="450" alt="alt text">
 
 ## Limitations
 
