@@ -31,16 +31,12 @@ The InceptionResnetV1 model is a deep convolutional neural network used for faci
 - **Global Recognition**: Widely adopted in various facial recognition applications, demonstrating reliability and robustness across different scenarios.
 
 ## MediaPipe Pose
-MediaPipe Pose is a versatile machine learning library designed for high-accuracy real-time posture estimation. Mediapipe Pose uses a deep learning model to detect body landmarks and infer body posture.
-
-- **Real-Time Performance**: Capable of processing video frames at real-time speeds, making it suitable for live video analysis.
+MediaPipe Pose is a versatile machine learning library designed for high-accuracy posture estimation.
 - **Accuracy and Precision**: Detects body landmarks, including important joints and key points, enabling detailed posture and movement analysis.
-- **Integration**: Easily integrates with other machine learning frameworks and tools, enhancing its versatility for various applications.
 
 ## Voice Analysis
-The voice analysis module involves extracting and analyzing vocal features using speaker diarization and embedding models to capture key characteristics of the speaker's voice.
-
-PyAnnote is a toolkit for speaker diarization and voice analysis.
+The voice analysis module involves extracting and analyzing vocal features using speaker diarization and embedding models to capture key characteristics of the speaker's voice.   
+PyAnnote is a toolkit for speaker diarization and voice analysis.   
 - **Speaker Diarization**: Identifies voice segments and classifies them by speaker.
 - **Speaker Embeddings**: Captures voice characteristics using a pre-trained embedding model.
 
@@ -51,10 +47,6 @@ A Variational Autoencoder (VAE) is a type of neural network that learns to encod
 - **Reconstruction and Generation**: By comparing the reconstructed data to the original, VAEs can measure reconstruction errors. High errors indicate anomalies, as such data points do not conform well to the learned normal patterns.
 
 <img src="appendix/VAE_Basic.png" width="300" alt="alt text">
-
-## Setup Parameters
-- **Frames Per Second (FPS)**: Frames per second to analyze (lower for faster processing).
-- **Anomaly Detection Threshold**: Threshold for detecting anomalies (Standard Deviation).
 
 ## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, lasting only milliseconds, are challenging to detect but can be captured and analyzed using computer vision algorithms when analyzing frame-by-frame.
@@ -76,6 +68,9 @@ Micro-expressions are brief, involuntary facial expressions that typically last 
 
 Effective capture of micro-expressions generally requires frame rates above 100 fps. High-speed video systems designed for micro-expression detection often operate at 118 fps or higher, with some systems reaching up to 200 fps.
 
+## Setup Parameters
+- **Frames Per Second (FPS)**: Frames per second to analyze (lower for faster processing).
+- **Anomaly Detection Threshold**: Threshold for detecting anomalies (Standard Deviation).
 
 ## Examples
 
