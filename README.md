@@ -80,15 +80,6 @@ Effective capture of micro-expressions generally requires frame rates above 100 
 
 Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm, showing little emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024.
 
-<p align="left">
-<img src="appendix/1.jpg" width="50" alt="alt text">
-<img src="appendix/2.jpg" width="50" alt="alt text">
-<img src="appendix/3.jpg" width="50" alt="alt text">
-<img src="appendix/4.jpg" width="50" alt="alt text">
-<img src="appendix/5.jpg" width="50" alt="alt text">
-<img src="appendix/6.jpg" width="50" alt="alt text">
-<p/>
-
 Sources:
 1. [Fox News](https://www.foxnews.com/us/florida-double-murderer-viral-smug-soulless-courtroom-demeanor)
 2. [WINK News](https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/)
@@ -116,12 +107,12 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <table>
   <tr>
     <td>
-      <img src="appendix/example_2_graph_1.webp" width="600" alt="Graph 1">
+      <img src="appendix/outputs/example_2_graph_1.png" width="600" alt="Graph 1">
     </td>
     <td>
-      <img src="appendix/example_2_graph_7.webp" width="500" alt="Graph 7"><br>
-      <img src="appendix/example_2_graph_2.webp" width="500" alt="Graph 2">
-      <img src="appendix/example_2_graph_3.webp" width="500" alt="Graph 3">
+      <img src="appendix/outputs/example_2_graph_7.png" width="500" alt="Graph 7"><br>
+      <img src="appendix/outputs/example_2_graph_2.png" width="500" alt="Graph 2">
+      <img src="appendix/outputs/example_2_graph_3.png" width="500" alt="Graph 3">
     </td>
   </tr>
 </table>
@@ -129,11 +120,11 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <table>
   <tr>
     <td>
-      <img src="appendix/example_2_graph_4.webp" width="600" alt="Graph 1">
+      <img src="appendix/outputs/example_2_graph_4.png" width="600" alt="Graph 1">
     </td>
     <td>
-      <img src="appendix/example_2_graph_5.webp" width="500" alt="Graph 2"><br>
-      <img src="appendix/example_2_graph_6.webp" width="500" alt="Graph 3">
+      <img src="appendix/outputs/example_2_graph_5.png" width="500" alt="Graph 2"><br>
+      <img src="appendix/outputs/example_2_graph_6.png" width="500" alt="Graph 3">
     </td>
   </tr>
 </table>
