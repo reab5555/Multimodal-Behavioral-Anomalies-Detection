@@ -110,8 +110,7 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
       <img src="appendix/outputs/example_2_graph_1.png" width="600" alt="Graph 1">
     </td>
     <td>
-      <img src="appendix/outputs/example_2_graph_7.png" width="500" alt="Graph 7"><br>
-      <img src="appendix/outputs/example_2_graph_2.png" width="500" alt="Graph 2">
+      <img src="appendix/outputs/example_2_graph_2.png" width="500" alt="Graph 2"><br>
       <img src="appendix/outputs/example_2_graph_3.png" width="500" alt="Graph 3">
     </td>
   </tr>
