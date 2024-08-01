@@ -85,16 +85,31 @@ Sources:
 2. [WINK News](https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/)
 3. [YouTube](https://www.youtube.com/watch?v=8j8psgKXmRg)
 
-<p align="left">
-<img src="appendix/anomaly_scores_all_features_plot.png" width="250" alt="alt text">
-<img src="appendix/anomaly_scores_components_plot.png" width="250" alt="alt text">
-<img src="appendix/anomaly_scores_embeddings_plot.png" width="250" alt="alt text">
-<p/>
+#### Results
 
-<p align="left">
-<img src="appendix/posture_scores_plot.png" width="250" alt="alt text">
-<img src="appendix/posture_mse_plot.png" width="250" alt="alt text">
-<p/>
+<table>
+  <tr>
+    <td>
+      <img src="appendix/outputs/example_1_graph_1.png" width="600" alt="Graph 1">
+    </td>
+    <td>
+      <img src="appendix/outputs/example_1_graph_2.png" width="500" alt="Graph 2"><br>
+      <img src="appendix/outputs/example_1_graph_3.png" width="500" alt="Graph 3">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="appendix/outputs/example_1_graph_4.png" width="600" alt="Graph 1">
+    </td>
+    <td>
+      <img src="appendix/outputs/example_1_graph_5.png" width="500" alt="Graph 2"><br>
+      <img src="appendix/outputs/example_1_graph_6.png" width="500" alt="Graph 3">
+    </td>
+  </tr>
+</table>
 
 ### Clinton-Lehrer Interview
 
