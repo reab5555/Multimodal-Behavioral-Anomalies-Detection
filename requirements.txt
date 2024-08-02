@@ -6,11 +6,15 @@ torchvision
 torchaudio
 facenet-pytorch
 mediapipe
-fer
+transformers
+pydub
+pyannote.audio
+librosa
+accelerate
 scikit-learn
-umap-learn
 pandas
 matplotlib
 moviepy
 Pillow
+seaborn
 gradio
