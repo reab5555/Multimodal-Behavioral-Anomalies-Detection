@@ -1,4 +1,4 @@
-<img src="appendix/icon.jpeg" width="100" alt="alt text">
+<img src="appendix/icon.jpeg" width="100">
 
 # Multimodal Behavioral Anomalies Detection
 
@@ -20,8 +20,8 @@ The purpose of this project is to detect anomalies in facial expressions, body p
 - **Anomaly Detection**: Uses Variational Autoencoder (VAE) to detect anomalies in facial expressions, body postures, and voice features over time.
 - **Visualization**: Represents changes in facial expressions, body postures, and vocal tone over time, marking anomaly key points.
 
-<img src="appendix/Anomay Detection Simple.png" width="500" alt="alt text">
-<img src="appendix/Anomay Detection.png" width="1050" alt="alt text">
+<img src="appendix/Anomay Detection Simple.png" width="500">
+<img src="appendix/Anomay Detection.png" width="1050">
 
 ## InceptionResnetV1
 The InceptionResnetV1 model is a deep convolutional neural network used for facial recognition and facial attribute extraction.
@@ -46,7 +46,7 @@ A Variational Autoencoder (VAE) is a type of neural network that learns to encod
 - **Probabilistic Nature**: VAEs introduce a probabilistic approach to encoding, where the encoded representations are not single fixed points but distributions. This allows the model to learn a more robust representation of the data.
 - **Reconstruction and Generation**: By comparing the reconstructed data to the original, VAEs can measure reconstruction errors. High errors indicate anomalies, as such data points do not conform well to the learned normal patterns.
 
-<img src="appendix/VAE_Basic.png" width="300" alt="alt text">
+<img src="appendix/VAE_Basic.png" width="300">
 
 ## Micro-Expressions
 Paul Ekman’s work on facial expressions of emotion identified universal micro-expressions that reveal true emotions. These fleeting expressions, lasting only milliseconds, are challenging to detect but can be captured and analyzed using computer vision algorithms when analyzing frame-by-frame.
@@ -76,7 +76,7 @@ Effective capture of micro-expressions generally requires frame rates above 100 
 
 ### A Death Sentence Verdict
 
-<img src="appendix/wade_wilson_2.jpg" width="250" alt="alt text">
+<img src="appendix/wade_wilson_2.jpg" width="250">
 
 Wade Wilson, a 30-year-old from Fort Myers, Florida, was convicted in June 2024 for the October 2019 murders of Kristine Melton and Diane Ruiz in Cape Coral. During the trial, Wilson was notably cold and calm, showing little emotion throughout the proceedings, which many found unsettling. The jury recommended the death penalty, with the final sentencing set for July 23, 2024.
 
@@ -90,11 +90,11 @@ Sources:
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_1_graph_1.png" width="600" alt="Graph 1">
+      <img src="appendix/outputs/example_1_graph_1.png" width="600">
     </td>
     <td>
-      <img src="appendix/outputs/example_1_graph_2.png" width="500" alt="Graph 2"><br>
-      <img src="appendix/outputs/example_1_graph_3.png" width="500" alt="Graph 3">
+      <img src="appendix/outputs/example_1_graph_2.png" width="500"><br>
+      <img src="appendix/outputs/example_1_graph_3.png" width="500">
     </td>
   </tr>
 </table>
@@ -102,18 +102,29 @@ Sources:
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_1_graph_4.png" width="600" alt="Graph 1">
+      <img src="appendix/outputs/example_1_graph_4.png" width="600">
     </td>
     <td>
-      <img src="appendix/outputs/example_1_graph_5.png" width="500" alt="Graph 2"><br>
-      <img src="appendix/outputs/example_1_graph_6.png" width="500" alt="Graph 3">
+      <img src="appendix/outputs/example_1_graph_5.png" width="500"><br>
+      <img src="appendix/outputs/example_1_graph_6.png" width="500">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="appendix/outputs/example_2_graph_7" width="600">
+    </td>
+    <td>
+      <img src="appendix/outputs/example_2_graph_8" width="500"><br>
     </td>
   </tr>
 </table>
 
 ### Clinton-Lehrer Interview
 
-<img src="appendix/bill.png" width="250" alt="alt text">
+<img src="appendix/bill.png" width="250">
 
 President Bill Clinton's interview with Jim Lehrer about his relationship with Monica Lewinsky is another prominent example for testing our algorithm. During this interview, Clinton was asked difficult questions, and his facial expressions and body language were scrutinized. Our anomaly detection algorithm can identify key points where he was visibly distressed or potentially lying, appearing as anomalies in the detected data.
 
@@ -122,11 +133,11 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_2_graph_1.png" width="600" alt="Graph 1">
+      <img src="appendix/outputs/example_2_graph_1.png" width="600">
     </td>
     <td>
-      <img src="appendix/outputs/example_2_graph_2.png" width="500" alt="Graph 2"><br>
-      <img src="appendix/outputs/example_2_graph_3.png" width="500" alt="Graph 3">
+      <img src="appendix/outputs/example_2_graph_2.png" width="500"><br>
+      <img src="appendix/outputs/example_2_graph_3.png" width="500">
     </td>
   </tr>
 </table>
@@ -134,11 +145,23 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_2_graph_4.png" width="600" alt="Graph 1">
+      <img src="appendix/outputs/example_2_graph_4.png" width="600">
     </td>
     <td>
-      <img src="appendix/outputs/example_2_graph_5.png" width="500" alt="Graph 2"><br>
-      <img src="appendix/outputs/example_2_graph_6.png" width="500" alt="Graph 3">
+      <img src="appendix/outputs/example_2_graph_5.png" width="500"><br>
+      <img src="appendix/outputs/example_2_graph_6.png" width="500">
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>
+      <img src="appendix/outputs/example_2_graph_7" width="600">
+    </td>
+    <td>
+      <img src="appendix/outputs/example_2_graph_8" width="500"><br>
     </td>
   </tr>
 </table>
