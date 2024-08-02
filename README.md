@@ -114,12 +114,8 @@ Sources:
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_2_graph_7" width="600">
+      <img src="appendix/outputs/example_1_graph_8.png" width="600">
     </td>
-    <td>
-      <img src="appendix/outputs/example_2_graph_8" width="500"><br>
-    </td>
-  </tr>
 </table>
 
 ### Clinton-Lehrer Interview
@@ -158,10 +154,10 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_2_graph_7" width="600">
+      <img src="appendix/outputs/example_2_graph_7.png" width="600">
     </td>
     <td>
-      <img src="appendix/outputs/example_2_graph_8" width="500"><br>
+      <img src="appendix/outputs/example_2_graph_8.png" width="500">
     </td>
   </tr>
 </table>
