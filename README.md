@@ -88,26 +88,18 @@ Sources:
 2. [WINK News](https://winknews.com/2024/06/13/wade-wilsons-lack-emotion-double-murder-trial/)
 3. [YouTube](https://www.youtube.com/watch?v=8j8psgKXmRg)
 
-#### Results
-
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_1_graph_1.png" width="500"><br>
-      <img src="appendix/outputs/example_1_graph_3.png" width="500"><br>
-      <img src="appendix/outputs/example_1_graph_2.png" width="500"><br>
-      <img src="appendix/outputs/example_1_graph_8.png" width="500"><br>
-      <img src="appendix/outputs/example_1_graph_4.png" width="500"><br>
-      <img src="appendix/outputs/example_1_graph_6.png" width="500"><br>
-      <img src="appendix/outputs/example_1_graph_5.png" width="500">
+      <img src="appendix/outputs/example_1_graph_1.png" width="600"><br>
+      <img src="appendix/outputs/example_1_graph_3.png" width="600"><br>
+      <img src="appendix/outputs/example_1_graph_2.png" width="600"><br>
+      <img src="appendix/outputs/example_1_graph_8.png" width="600"><br>
+      <img src="appendix/outputs/example_1_graph_4.png" width="600"><br>
+      <img src="appendix/outputs/example_1_graph_6.png" width="600"><br>
+      <img src="appendix/outputs/example_1_graph_5.png" width="600">
       </td>
     </tr>
-</table>
-
-<table>
-  <tr>
-
- </td>
 </table>
 
 ### Clinton-Lehrer Interview
@@ -123,27 +115,15 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
 <table>
   <tr>
     <td>
-      <img src="appendix/outputs/example_2_graph_1.png" width="600">
-    </td>
-    <td>
-      <img src="appendix/outputs/example_2_graph_2.png" width="500"><br>
-      <img src="appendix/outputs/example_2_graph_3.png" width="500">
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <img src="appendix/outputs/example_2_graph_4.png" width="600">
-    </td>
-    <td>
+      <img src="appendix/outputs/example_2_graph_1.png" width="600"><br>
+      <img src="appendix/outputs/example_2_graph_3.png" width="500"><br>
+      <img src="appendix/outputs/example_2_graph_8.png" width="500"><br>
+      <img src="appendix/outputs/example_2_graph_6.png" width="500"><br>
       <img src="appendix/outputs/example_2_graph_5.png" width="500"><br>
-      <img src="appendix/outputs/example_2_graph_6.png" width="500">
+     <img src="appendix/outputs/example_2_graph_4.png" width="600">
     </td>
   </tr>
 </table>
-
 
 <table>
   <tr>
@@ -151,7 +131,6 @@ President Bill Clinton's interview with Jim Lehrer about his relationship with M
       <img src="appendix/outputs/example_2_graph_7.png" width="600">
     </td>
     <td>
-      <img src="appendix/outputs/example_2_graph_8.png" width="500">
     </td>
   </tr>
 </table>
