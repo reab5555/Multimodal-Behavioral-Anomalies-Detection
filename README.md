@@ -127,6 +127,8 @@ Sources:
 
 President Bill Clinton's interview with Jim Lehrer about his relationship with Monica Lewinsky is another prominent example for testing our algorithm. During this interview, Clinton was asked difficult questions, and his facial expressions and body language were scrutinized. Our anomaly detection algorithm can identify key points where he was visibly distressed or potentially lying, appearing as anomalies in the detected data.
 
+[YouTube](https://www.youtube.com/watch?v=XBzHnZiSv7U)
+
 #### Results
 
 <table>
