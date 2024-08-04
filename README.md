@@ -94,11 +94,11 @@ Sources:
   <tr>
     <td>
       <img src="appendix/outputs/example_1_graph_1.png" width="600"><br>
-      <img src="appendix/outputs/example_1_graph_2.png" width="500">
-    </td>
+      <img src="appendix/outputs/example_1_graph_3.png" width="500">
+      </td>
     <td>
       <img src="appendix/outputs/example_1_graph_8.png" width="600"><br>
-      <img src="appendix/outputs/example_1_graph_3.png" width="500">
+      <img src="appendix/outputs/example_1_graph_2.png" width="500">
     </td>
   </tr>
 </table>
