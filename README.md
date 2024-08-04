@@ -94,11 +94,12 @@ Sources:
   <tr>
     <td>
       <img src="appendix/outputs/example_1_graph_1.png" width="600"><br>
-      <img src="appendix/outputs/example_1_graph_3.png" width="500">
+      <img src="appendix/outputs/example_1_graph_3.png" width="500"><br>
+      <img src="appendix/outputs/example_1_graph_2.png" width="500">
       </td>
     <td>
-      <img src="appendix/outputs/example_1_graph_8.png" width="600"><br>
-      <img src="appendix/outputs/example_1_graph_2.png" width="500">
+      <img src="appendix/outputs/example_1_graph_8.png" width="600">
+      
     </td>
   </tr>
 </table>
@@ -111,13 +112,6 @@ Sources:
       <img src="appendix/outputs/example_1_graph_5.png" width="500">
     </td>
     <td>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <img src="appendix/outputs/example_1_graph_8.png" width="600">
-    </td>
 </table>
 
 ### Clinton-Lehrer Interview
