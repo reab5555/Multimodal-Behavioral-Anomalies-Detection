@@ -111,7 +111,6 @@ Sources:
     </td>
     <td>
       <img src="appendix/outputs/example_1_graph_5.png" width="500">
-      
     </td>
   </tr>
 </table>
