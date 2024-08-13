@@ -5,7 +5,7 @@
 The purpose of this project is to detect anomalies in facial expressions, body posture or movement, and voice over the timeline of a video utilizing a variational autoencoder (VAE) approach.   
 
 
-[Demo](https://huggingface.co/spaces/reab5555/Multiple-Speakers-Personality-Analyzer)
+[Demo](https://huggingface.co/spaces/reab5555/Multimodal-Behavioral-Anomalies-Detection)
 
 ## Applications
 
